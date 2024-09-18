@@ -1,0 +1,36 @@
+#título {
+    color: green;
+    text-align:center;
+}
+p#descricao {
+    color: blue;
+    }
+.promocao {
+    text-align: center;
+    background-color: lightgreen;
+}
+.nova {
+    color: white;
+    }
+    p.final-pagina#rodape{
+        background-color: lightgray;
+        text-align: center;
+        }
+/* todo curso tem essa cor de fundo */
+.curso, .novo-curso {
+    background-color: aliceblue;
+    }
+    
+    /* veja a cor de fundo repetida para que possamos
+    especificar uma regra não aplicável aos demais cursos
+    */
+    .novo-curso{
+    color: red;
+    }
+    .curso, .novo-curso, #contato {
+        /* padding: espaço entre o conteúdo e a borda.
+        Veremos mais sobre isso adiante */
+        padding: 12px;
+        /* estudaremos mais sobre bordas também */
+        border: 1px solid lightgray;
+        }
