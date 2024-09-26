@@ -4,8 +4,26 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/cascata_especificidade.css">
 <title>Cascata e especificidade</title>
+<style>
+/* especificidade: 0-1-1 */
+/* 11 pontos */
+.principal article{
+background-color: lightblue;
+}
+/* especificidade: 0-0-2 */
+/* 2 pontos */
+main, article {
+border: 1px solid black;
+}
+</style>
 </head>
 <body>
-<p>Um parágrafo</p>
+<main class="principal">
+<article>
+<p id="titulo" class="descricao">
+Algoritmo de especificidade do CSS
+</p>
+</article>
+</main>
 </body>
 </html>
